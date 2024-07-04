@@ -8,6 +8,10 @@
     "typescript": "^5.5.3"
   },
   "devDependencies": {
-    "@types/node": "^20.14.9"
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "dev": "npx ts-node src/app.ts"
   }
 }
